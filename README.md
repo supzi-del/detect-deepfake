@@ -34,17 +34,14 @@ DeepFake-Detection
     |--- Requiremnts.txt
 ```
 
-## Project Set-up Guidelines
+## Project Set-up
 To set up the project. All the steps and guidelines regarding that are listed [here](https://github.com/iamdhrutipatel/DeepFake-Detection/blob/main/Project-Setup.txt).
-
-## Note
-1. In the root folder(DeepFake_Detection), create a new folder called "Uploaded_Files".
 
 2. In the root folder(DeepFake_Detection), create a new folder called "model" and add the [model file](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l?usp=sharing) in it.
 
 <b>Add these folders to the root folder(DeepFake_Detection). Since, the path has already been given to the "server.py" file and also to avoid any path related errors.</b>
 
-## Our Results
+## Results
 
 1) Accuracy of the Model:
 <img width="250" height="50" alt="Model Accuracy" src="https://user-images.githubusercontent.com/58872872/133935912-1def7615-6538-4c88-9134-8f94a9367965.png">
@@ -58,12 +55,4 @@ To set up the project. All the steps and guidelines regarding that are listed [h
 4) Confusion Matrix:
 <img width="402" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/58872872/133936080-d2b39804-4a99-47b8-8be4-87ba77161961.png">
 
-- To see the working of the project, follow this [link](https://github.com/iamdhrutipatel/DeepFake-Detection/blob/main/Implementation%20Video.mp4).
-
-## Facing any issues???
-Feel free to [open an issue](https://github.com/iamdhrutipatel/DeepFake-Detection/issues/new?assignees=&labels=Query&title=Query). We'll be glad to help you.❤️
-
-## Developers
-1. [Juhie Motiani](https://github.com/JuhieMotiani)
-2. [Dhruti Patel](https://github.com/iamdhrutipatel)
-3. [Anjali Patel](https://github.com/anjali-patel21)
+## Screenshots
