@@ -43,16 +43,29 @@ To set up the project. All the steps and guidelines regarding that are listed [h
 
 ## Results
 
-1) Accuracy of the Model:
-<img width="250" height="50" alt="Model Accuracy" src="https://user-images.githubusercontent.com/58872872/133935912-1def7615-6538-4c88-9134-8f94a9367965.png">
+1) Training and Validation Accuracy Graph:
+<img width="378" alt="Accuracy Graph" src="https://github.com/supzi-del/detect-deepfake/assets/78655439/6c524a93-c3d9-4044-be58-43735f68d713">
 
-2) Training and Validation Accuracy Graph:
-<img width="378" alt="Accuracy Graph" src="https://user-images.githubusercontent.com/58872872/133936040-4bfa44a7-45c5-499b-8a10-f253cbcab56c.png">
+2) Training and Validation Loss Graph:
+<img width="381" alt="Loss Graph" src="https://github.com/supzi-del/detect-deepfake/assets/78655439/c8a92094-c17c-4134-a341-583dd5a5249a">
 
-3) Training and Validation Loss Graph:
-<img width="381" alt="Loss Graph" src="https://user-images.githubusercontent.com/58872872/133935983-b4d9275f-e841-4b69-86cd-79c770ea2aa1.png">
-
-4) Confusion Matrix:
-<img width="402" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/58872872/133936080-d2b39804-4a99-47b8-8be4-87ba77161961.png">
+3) Confusion Matrix:
+<img width="402" alt="Confusion Matrix" src="https://github.com/supzi-del/detect-deepfake/assets/78655439/0c3bbedd-1e68-40f0-9e13-8dc2979b6d56">
+<br>
+<p>
+<ul>
+<li>True positive =  63 </li>
+<li>False positive =  8 </li>
+<li>False negative =  12 </li>
+<li>True negative =  57 </li>
+</li></ul>
+<p>
+4) Accuracy of the Model: <br>
+Calculated Accuracy 85.71428571428571
 
 ## Screenshots
+<img alt="page1" src="https://github.com/supzi-del/detect-deepfake/assets/78655439/5d8b9f61-673d-4c35-bb2f-b4552764bbb4">
+<img  alt="page2" src="https://github.com/supzi-del/detect-deepfake/assets/78655439/f739b1bc-7caa-4ff0-8d13-018cd75edbf0">
+
+
+
