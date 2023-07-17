@@ -17,29 +17,30 @@ DeepFake Video Detection is a web application that uses deep learning techniques
 - The output of the application is a prediction of whether the video is real or fake, along with a confidence ratio. The confidence ratio indicates the level of certainty the model has in its prediction.
 
 ## Dataset Used
-- The Dataset we've used to train our model is [here](https://github.com/yuezunli/celeb-deepfakeforensics).
+- [FaceForensics++](https://github.com/ondyari/FaceForensics)
+- [Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics)
 
-- To find our trained model follow this [link](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l?usp=sharing).
+## Training the model
+- Execute the .ipynb files in [detect-deepfake] on Google Colab and link the Google Drive account.
+- [Trained Model (checkpint.pt)](https://drive.google.com/file/d/1jRBqpIDG7ygvyqbsRRA_8pyfz9YQNCEI/view?usp=sharing).
 
-- To train our model we've took help from [here](https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/tree/master/Model%20Creation).
-  Thanks to them!
-
-- To understand the project in a better way it is structured in below format:
-```
-DeepFake-Detection
-    |
-    |--- DeepFake_Detection
-    |--- Implementation Video
-    |--- Project-Setup.txt
-    |--- Requiremnts.txt
-```
+- Model training reference from [here](https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/tree/master/Model%20Creation).
 
 ## Project Set-up
-To set up the project. All the steps and guidelines regarding that are listed [here](https://github.com/iamdhrutipatel/DeepFake-Detection/blob/main/Project-Setup.txt).
+- Clone this project into local machine.
+  
+- Execute 'pip install -r requirements.txt' in terminal.
+   
+- In two different terminals, 'cd detect-deepfake'
+- 'cd DFD'
 
-2. In the root folder(DeepFake_Detection), create a new folder called "model" and add the [model file](https://drive.google.com/drive/folders/1-zErGZ9T89TplQs3ws4QVRFlqE-ljW6l?usp=sharing) in it.
+- In 1st terminal, run Command'python server.py'
+- In the 2nd one, run Command 'npm start'
+  
+- You've succesfully executed the Project.
 
-<b>Add these folders to the root folder(DeepFake_Detection). Since, the path has already been given to the "server.py" file and also to avoid any path related errors.</b>
+
+Note : In the root folder(detect-deepfake), create a new folder called "models" and add the [model file](https://drive.google.com/file/d/1jRBqpIDG7ygvyqbsRRA_8pyfz9YQNCEI/view?usp=sharing) in it.
 
 ## Results
 
