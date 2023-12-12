@@ -24,8 +24,6 @@ DeepFake Video Detection is a web application that uses deep learning techniques
 - Execute the .ipynb files in [detect-deepfake] on Google Colab and link the Google Drive account.
 - [Trained Model (checkpint.pt)](https://drive.google.com/file/d/1jRBqpIDG7ygvyqbsRRA_8pyfz9YQNCEI/view?usp=sharing).
 
-- Model training reference from [here](https://github.com/abhijitjadhav1998/Deepfake_detection_using_deep_learning/tree/master/Model%20Creation).
-
 ## Project Set-up
 - Clone this project into local machine.
   
